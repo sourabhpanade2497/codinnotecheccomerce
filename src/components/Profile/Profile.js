@@ -10,6 +10,16 @@ import ticket from "../../assets/Ticket.svg";
 import star from "../../assets/Star.svg";
 import EditIcon from '@mui/icons-material/Edit';
 function Profile() {
+  const  handleOrder = () => {
+    window.location.href = '/MyOrder'; 
+  };
+  const  handleAddress= () => {
+    window.location.href = '/ManageAddress'; 
+  };
+  const  handlePayment= () => {
+    window.location.href = '/Payment'; 
+  };
+
   return (
     <div >
         <div className="Header-element">
@@ -18,9 +28,9 @@ function Profile() {
         </div>
         <div className="text-container">       
         
-        <h2 id='Myacc' className='myaccount'>My Account</h2>
+        <h2  className='myaccount_profile'>My Account</h2>
         <img src={profile} alt="profile" className="image" />
-        <h2 className='name'>Name</h2>
+        <h2 className='profile_name'>Name</h2>
         <h2 className='gender'>Gender</h2>
 
         <div className="textareas">
@@ -44,32 +54,32 @@ function Profile() {
         <div className="edit">
             Edit
         </div>
-        <div className="edit-icon">
+        <div className="edit-icon_profile">
             <EditIcon/>
         </div>
-        <div className="phonenumber">
+        <div className="phonenumber_profile">
             Phone Number
         </div>
-        <div className="email">
+        <div className="profile_email">
             E-mail
         </div>
         
         <div className="order-container">
         <div className="order-item" />
-        <div className="my-order">My Order</div>
+        <div className="my-order" onClick={handleOrder}>My Order</div>
         <img className="package-icon" alt="" src={packagebox} />
       </div>
 
       <div className="manage-container">
         <div className="manage-item" />
         <div className="manage-address-parent">
-          <div className="manage-address">Manage Address</div>
+          <div className="manage-address" onClick={handleAddress}>Manage Address</div>
           <img className="mappin-icon" alt="" src={mappin} />
         </div>
 
         <div className="payment-container">
         <div className="payment-item" />
-        <div className="payment">Payment</div>
+        <div className="payment" onClick={handlePayment}>Payment</div>
         <img className="creditcard-icon" alt="" src={creditcard} />
       </div>
         </div>
@@ -96,7 +106,7 @@ function Profile() {
         <div className="logout-item" />
         <div className="log-out">Log Out</div>
       </div>
-        </div>id='Myacc' 
+        </div>
         </div>
     
   )

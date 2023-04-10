@@ -11,6 +11,7 @@ import Demo from "./components/Demo/Demo";
 import DeliveryAddress from "./components/DeliveryAddress/DeliveryAddress";
 import BasicDetails from "./components/BasicDetails/BasicDetails";
 import NewAddress from "./components/NewAddress/NewAddress";
+import Support from "./components/Support/Support";
 
 
 
@@ -31,6 +32,8 @@ function App() {
       <Route path="/DeliveryAddress" element={<DeliveryAddress/>}/>
       <Route path="/BasicDetails" element={<BasicDetails/>}/>
       <Route path="/NewAddress" element={<NewAddress/>}/>
+      <Route path="/Support" element={<Support/>}/>
+
       <Route path="/Demo" element={<Demo/>}/>
 
      

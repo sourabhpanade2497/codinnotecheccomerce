@@ -1,0 +1,240 @@
+.myorder-support {
+    position: absolute;
+    width: 163px;
+    height: 41px;
+    left: 102px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    white-space: nowrap;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.support {
+    position: absolute;
+    width: 234px;
+    height: 41px;
+    left: 238px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.arrow-support {
+    position: absolute;
+    width: 16px;
+    height: 41px;
+    left: 264px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.support_text h2 {
+    position: absolute;
+    top: 220px;
+    left: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.support_text p {
+    position: absolute;
+    top: 290px;
+    left: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.support_textbox {
+    position: absolute;
+    top: 360px;
+    left: 120px;
+    border: none;
+}
+
+.support_textbox:focus {
+    outline: none;
+}
+
+.uploadproof {
+    position: absolute;
+    top: 900px;
+    left: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.uploadimage_rectangle {
+    position: absolute;
+    width: 261px;
+    height: 217px;
+    left: 117px;
+    top: 1015px;
+    background: #F5F5F5;
+}
+
+.upload_image {
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    left: 165px;
+    top: 1131px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    white-space: nowrap;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.img1 {
+    position: absolute;
+    top: 1070px;
+    left: 220px;
+    font-size: 40px;
+}
+
+.uploadimage_rectangle2 {
+    position: absolute;
+    width: 261px;
+    height: 217px;
+    left: 397px;
+    top: 1015px;
+    background: #F5F5F5;
+}
+
+.upload_image2 {
+    position: absolute;
+    width: 159px;
+    height: 33px;
+    left: 442px;
+    top: 1131px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.upload_image3 {
+    position: absolute;
+    width: 159px;
+    height: 33px;
+    left: 726px;
+    top: 1131px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.uploadimage_rectangle3 {
+    position: absolute;
+    width: 261px;
+    height: 217px;
+    left: 677px;
+    top: 1015px;
+    background: #F5F5F5;
+}
+
+.img2 {
+    position: absolute;
+    top: 1070px;
+    left: 500px;
+    font-size: 40px;
+}
+
+.img3 {
+    position: absolute;
+    top: 1070px;
+    left: 780px;
+    font-size: 40px;
+}
+
+.uploadimage_rectangle4 {
+    position: absolute;
+    width: 261px;
+    height: 217px;
+    left: 957px;
+    top: 1015px;
+    background: #F5F5F5
+}
+
+.upload_video {
+    position: absolute;
+    width: 159px;
+    height: 33px;
+    left: 1000px;
+    top: 1131px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.img4 {
+    position: absolute;
+    top: 1070px;
+    left: 1050px;
+    font-size: 40px;
+}
+
+.submit_btn {
+    position: absolute;
+    width: 383px;
+    height: 85px;
+    left: 475px;
+    top: 1287px;
+    background: #3C83E6;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26.2308px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
