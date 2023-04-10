@@ -1,57 +1,131 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
-import { BiSearch, BiUser } from "react-icons/bi";
-import { FiShoppingCart } from "react-icons/fi";
+import React,{useState} from "react";
 import "./Home.css";
-import logo from "../../assets/logo.png";
-import menu from "../../assets/menu.png";
+
+import images from "../Data/Data";
+import Carousel from './../Carousel/Carousel';
+import 'react-simple-carousel-image-slider/dist/index.css'
+
 import "@fontsource/poppins";
 import "@fontsource/quattrocento";
-import homeimage from '../../assets/homeimage.png';
-import secondimage from '../../assets/product1.png';
-import thirdimage from '../../assets/product3.png'
-import { Carousel } from 'react-responsive-carousel';
+import MyCarousel from "../Carousel/MyCarousel";
+import Gridimage from "../GridImage/Gridimage";
+
+import Header from "../Header/Header";
+import CustomHomeGrid from "../Data/CustomHomeGrid";
+import Topproductshome from "../Data/Topproductshome";
 function Home() {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [dotPosition, setDotPosition] = useState({ x: 0, y: 0 });
+
+  const handleImageClick = (index,event) => {
+    const imageBounds = event.target.getBoundingClientRect();
+    const x = event.clientX - imageBounds.left;
+    const y = event.clientY - imageBounds.top;
+    setSelectedIndex(index);
+    setDotPosition({ x, y });
+  };
+  const handleDotClick = (event) => {
+    const imageBounds = event.target.parentNode.getBoundingClientRect();
+    const x = event.clientX - imageBounds.left;
+    const y = event.clientY - imageBounds.top;
+    setDotPosition({ x, y });
+  };
+
+  const renderImageCards= images.map((image,index) => (
+    <div key={image.id} 
+    className={`image-card ${index === selectedIndex ? 'selected' : 'not-selected'}`}
+    onClick={(event) => handleImageClick(index, event)}>
+      
+      <img  src={image.image} alt={image.description}/>
+      {index === selectedIndex && (
+          <div
+            className="dot"
+            style={{ left: dotPosition.x, top: dotPosition.y }}
+            onClick={handleDotClick}
+          ></div>
+        )}
+      <h2>{image.description}</h2>
+     </div>  
+     
+    ));
+    const renderDots = images.map((image,index) => (
+        <div
+          key={image.id}
+          className={`dot ${index === selectedIndex ? 'selected' : 'not-selected'}`}
+          style={{ left: dotPosition.x, top: dotPosition.y }}
+          onClick={(event) => handleImageClick(index,event)}>
+            <span className="dot-inner"></span>
+          </div>
+      
+      ));
+  
+    
   return (
     <div>
-      <nav className="navbar">
-        <div className="navbar-left">
-          <img className="navbar-menu" src={menu} alt="menu" />
-          <img className="navbar-logo" src={logo} alt="Logo" />
-          <p className="text-left">
-            eMAGZ
-            <p className="text-below">Connecting Universe</p>
-          </p>
-        </div>
-        <div className="navbar-right">
-            <BiSearch />
-            <FiShoppingCart />
-            <BiUser />
-        </div>
-        <div className="v1"></div>
-        <div className="text-right">
-        <span id="content1">Explore the poweful</span><span id="content2"> eBusiness Solution</span>
-        </div>
-        <div className="download">
-            <a href="#">(Download App)</a>
-        </div>
-      </nav>
+      <div className="Header">
+        <Header/>
+      </div>
      <div className="home-image">
-     <Carousel>
-                <div>
-                    <img src= {homeimage} alt="homeimage" />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src={secondimage} alt="secondimage" />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src={thirdimage} alt="thirdimage" />
-                    <p className="legend">Legend 3</p>
-                </div>
-            </Carousel>
+   <Carousel/>
+     </div>  
+     <div className="catagories-home">
+      <h2>Catagories</h2>
      </div>
+
+     <div className="image-slider">
+      <div className="image-style">
+        {renderImageCards}
+      </div>
+      <div className="dot-container">
+        {renderDots}
+      </div>
+    </div>
+
+    <div className="new-arrival-home">
+    New Arrivals
+    </div>
+
+    <div className="arrival-products">
+      <MyCarousel/>
+    </div>
+
+    <div className="fashion-home">
+    Fashion
+    </div>
+    <div className="view-more-home">
+    View More
+    </div>
+    <div className="filter-icon1">
+      <span class="material-symbols-outlined">
+filter_list
+</span>
+    </div>
+
+    <div className="grid">
+      <Gridimage/>
+    </div>
+    <div className="custom-grid-home">
+    <CustomHomeGrid/>
+    </div>
+
+    <div className="topproducthome">
+      Top Product
+    </div>
+
+    <div className="view-more-home2">
+    View More
+    </div>
+    
+    <Topproductshome/>
+
+    <div className="Allproducthome">
+     All Product
+    </div>
+
+    <div className="view-more-home3">
+    View More
+    </div>
     </div>
   );
 }

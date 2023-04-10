@@ -1,0 +1,502 @@
+    .myaccount {
+        position: absolute;
+        width: 163px;
+        height: 41px;
+        left: 102px;
+        top: 171px;
+        /* Title - Desktop */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        /* identical to box height */
+        color: #000000;
+    }
+    
+    .text-container {
+        left: 100px;
+    }
+    
+    .image {
+        position: absolute;
+        width: 184px;
+        height: 184px;
+        left: 92px;
+        top: 250px;
+    }
+    
+    .name {
+        position: absolute;
+        width: 95px;
+        height: 38px;
+        left: 343px;
+        top: 212px;
+        /* Title - Desktop */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    .gender {
+        position: absolute;
+        width: 123px;
+        height: 38px;
+        left: 710px;
+        top: 212px;
+        /* Title - Desktop */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    #textarea {
+        position: absolute;
+        width: 300px;
+        height: 67px;
+        left: 346px;
+        top: 290px;
+        background: #F3F3F3;
+        border: none;
+    }
+    
+    #radiobutton1 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 27.59px;
+        height: 27.59px;
+        left: -60px;
+        top: 1px;
+        border: 1.41463px solid #000000;
+    }
+    
+    #radiobutton2 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 27.59px;
+        height: 27.59px;
+        left: -60px;
+        top: 1px;
+        border: 2.12195px solid #000000;
+    }
+    
+    #radiobutton3 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 27.59px;
+        height: 27.59px;
+        left: -60px;
+        top: 1px;
+        border: 2.12195px solid #000000;
+    }
+    
+    .Male {
+        position: absolute;
+        width: 47.39px;
+        height: 29px;
+        left: 777.98px;
+        top: 296px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19.0976px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #000000;
+        accent-color: black;
+    }
+    
+    .Female {
+        position: absolute;
+        width: 72.15px;
+        height: 29px;
+        left: 901.05px;
+        top: 296px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19.0976px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #000000;
+        accent-color: black;
+    }
+    
+    .Notprefer {
+        position: absolute;
+        width: 163px;
+        height: 29px;
+        left: 1049px;
+        top: 296px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19.0976px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #000000;
+        accent-color: black;
+    }
+    
+    .edit {
+        width: 58px;
+        height: 38px;
+        margin-top: 360px;
+        margin-left: 160px;
+        /* Title - Desktop */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        color: #000000;
+        cursor: pointer;
+    }
+    
+    .edit-icon {
+        margin-top: -30px;
+        margin-left: -1750px;
+        cursor: pointer;
+    }
+    
+    .phonenumber {
+        position: absolute;
+        width: 221px;
+        height: 38px;
+        left: 340px;
+        top: 378px;
+        /* Title - Desktop */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    .email {
+        position: absolute;
+        width: 221px;
+        height: 38px;
+        left: 669px;
+        top: 378px;
+        /* Title - Desktop */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    #textarea2 {
+        position: absolute;
+        width: 300px;
+        height: 67px;
+        left: 346px;
+        top: 430px;
+        background: #F3F3F3;
+        border: none;
+    }
+    
+    #textarea3 {
+        position: absolute;
+        width: 470px;
+        height: 67px;
+        left: 726px;
+        top: 430px;
+        background: #F3F3F3;
+        border: none;
+    }
+    
+    .order-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(58deg, #0f0aa4 23.68%, #2992e3 99.39%);
+        width: 346px;
+        height: 108px;
+        border-radius: 20px;
+    }
+    
+    .order-container {
+        position: absolute;
+        top: 631px;
+        left: 84px;
+        width: 346px;
+        height: 108px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .my-order {
+        position: absolute;
+        top: 35px;
+        left: 125px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        /* identical to box height */
+    }
+    
+    .package-icon {
+        position: absolute;
+        top: 29px;
+        left: 65px;
+        width: 48px;
+        height: 48px;
+    }
+    
+    .manage-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+        background: radial-gradient(50% 50%at 50% 50%, #4d50b6 3.07%, #090770);
+        width: 389px;
+        height: 108px;
+    }
+    
+    .manage-address {
+        position: absolute;
+        top: 2px;
+        left: 55px;
+        font-weight: 600;
+    }
+    
+    .mappin-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 43px;
+        height: 43px;
+    }
+    
+    .manage-address-parent,
+    .manage-container {
+        position: absolute;
+        top: 35px;
+        left: 50px;
+        width: 289px;
+        height: 43px;
+    }
+    
+    .manage-container {
+        top: 631px;
+        left: 475px;
+        width: 389px;
+        height: 108px;
+        color: white;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        /* identical to box height */
+        cursor: pointer;
+    }
+    
+    .payment-item {
+        position: absolute;
+        top: 0;
+        left: 425px;
+        border-radius: 20px;
+        background: linear-gradient(49.76deg, #c02 31.44%, #ff8db6 77.22%);
+        width: 390px;
+        height: 108px;
+    }
+    
+    .payment {
+        position: absolute;
+        top: 32px;
+        left: 573px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 27px;
+        line-height: 40px;
+        /* identical to box height */
+    }
+    
+    .creditcard-icon {
+        position: absolute;
+        top: 26px;
+        left: 500px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .payment-container-container {
+        top: 631px;
+        left: 901px;
+        color: white;
+    }
+    
+    .wishlist-item,
+    .rectangle-container {
+        position: absolute;
+        width: 346px;
+        height: 108px;
+    }
+    
+    .wishlist-item {
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+        background: linear-gradient( 235.29deg, #020aff 2.86%, #23a3ff 35.19%, #2489d2 65.66%, #020eff 85.43%);
+        cursor: pointer;
+    }
+    
+    .wishlist {
+        position: absolute;
+        top: 38px;
+        left: 132px;
+        font-weight: 600;
+    }
+    
+    .heart-icon {
+        position: absolute;
+        top: 35px;
+        left: 71px;
+        width: 44px;
+        height: 44px;
+    }
+    
+    .wishlist-container {
+        position: absolute;
+        height: 108px;
+        top: 785px;
+        left: 86px;
+        width: 346px;
+        color: white;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+    }
+    
+    .coupan-item {
+        position: absolute;
+        height: 108px;
+        color: white;
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+        background: linear-gradient(234.92deg, #46f2db, #00a498 67.33%);
+        width: 395px;
+        cursor: pointer;
+    }
+    
+    .my-coupans {
+        position: absolute;
+        top: 31px;
+        left: 149px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 27px;
+        line-height: 40px;
+        /* identical to box height */
+    }
+    
+    .ticket-icon {
+        position: absolute;
+        top: 29px;
+        left: 74px;
+        width: 44px;
+        height: 44px;
+    }
+    
+    .coupan-container {
+        position: absolute;
+        width: 415px;
+        height: 108px;
+        top: 785px;
+        left: 469px;
+        color: white;
+    }
+    
+    .review-item,
+    .coupan-container {
+        position: absolute;
+        width: 395px;
+        height: 108px;
+    }
+    
+    .review-item {
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+        background: linear-gradient(235.35deg, #ffbe4e, #e35b00 75.63%);
+        cursor: pointer;
+    }
+    
+    .my-reviews {
+        position: absolute;
+        top: 33px;
+        left: 86px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 27px;
+        line-height: 40px;
+        /* identical to box height */
+    }
+    
+    .star-icon {
+        position: absolute;
+        top: 32px;
+        left: 27.05px;
+        width: 43px;
+        height: 43px;
+    }
+    
+    .review-container {
+        position: absolute;
+        top: 785px;
+        left: 895px;
+        width: 395px;
+        height: 108px;
+        color: white;
+    }
+    
+    .logout-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #F93B3B;
+        width: 453px;
+        height: 96px;
+    }
+    
+    .log-out {
+        position: absolute;
+        top: 27px;
+        left: 175px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 27px;
+        line-height: 40px;
+        cursor: pointer;
+    }
+    
+    .logout-container {
+        position: absolute;
+        top: 1000px;
+        padding: 10px;
+        left: 443px;
+        width: 453px;
+        height: 96px;
+        color: white;
+        cursor: pointer;
+    }

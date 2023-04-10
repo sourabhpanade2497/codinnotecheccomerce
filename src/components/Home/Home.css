@@ -1,95 +1,362 @@
-.navbar {
+.catagories-home {
+    position: absolute;
+    width: 256px;
+    height: 56px;
+    left: 880px;
+    top: 1080px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.image-style {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-bottom: 0;
-    background-color: #fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-evenly;
+    margin-top: 200px;
 }
 
-.navbar-left {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-menu {
-    padding: 20px;
-}
-
-.navbar-logo {
-    width: 80px;
-    padding: 10px 10px 10px;
-}
-
-.text-left {
-    width: 86px;
-    height: 23.89px;
-    top: 46px;
+.image-card {
+    position: relative;
     display: flex;
     flex-direction: column;
-    line-height: 13.36px;
-    padding: 10px 20px 0px;
-    font-size: 25px;
-    font-weight: 500;
-    font-family: 'Quattrocento';
-}
-
-.text-below {
-    font-size: 9px;
-    font-weight: 600;
-    font-family: 'Quattrocento';
-}
-
-.navbar-right {
-    display: flex;
     align-items: center;
-    gap: 50px;
-    margin-left: 1080px;
-}
-
-svg {
-    font-size: 35px;
+    justify-content: center;
+    margin-right: 1rem;
     cursor: pointer;
 }
 
-.v1 {
-    position: absolute;
-    height: 65px;
-    right: 250px;
-    top: 17px;
-    border: 3px solid #D2D2D2;
-}
-
-.text-right {
-    position: absolute;
-    width: 141px;
-    height: 60px;
-    right: 100px;
-    top: 21px;
-    font-size: 13.33px;
-    font-weight: 400;
-    font-family: 'Poppins';
-    font-style: normal;
-    line-height: 20px;
+.selected h2 {
+    font-weight: bold;
     color: black;
 }
 
-#content1::after {
-    content: "\a";
-    white-space: pre;
+.not-selected h2 {
+    font-weight: normal;
+    color: gray;
 }
 
-.download {
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+    transition: left 0.3s ease-in-out, top 0.3s ease-in-out;
+    visibility: visible;
+    top: calc(50% + 5px);
+    /* Adjust this value as needed */
+    transform: translateX(-50%);
+    /* Add this line to make the dot visible */
+}
+
+.dot.selected {
+    display: none;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.dot.not-selected {
+    display: none;
+    border: none;
+}
+
+.dot-inner {
+    display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.image-card.selected .dot {
+    visibility: visible;
+}
+
+.new-arrival-home {
+    position: absolute;
+    width: 294px;
+    height: 56px;
+    left: 60px;
+    top: 1401px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    white-space: nowrap;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.fashion-home {
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    left: 60px;
+    top: 2020px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.view-more-home {
+    position: absolute;
+    width: 142px;
+    height: 41px;
+    left: 1656px;
+    top: 2030px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+    cursor: pointer;
+}
+
+.filter-icon1 .material-symbols-outlined {
+    position: absolute;
+    font-size: 43px;
+    width: 50px;
+    top: 1401px;
+    left: 1756px;
+    cursor: pointer;
+}
+
+.customhomegrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 95px;
+    margin-right: 775px;
+    margin-bottom: 40px;
+    column-gap: 5px;
+}
+
+.side-grid {
+    position: absolute;
+    width: 1150px;
+    height: 1130px;
+    left: 768px;
+    top: 3698px;
+}
+
+.side-grid .timer-grid {
+    position: absolute;
+    width: 84.85px;
+    height: 399px;
+    left: 730px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 61.7072px;
+    line-height: 25px;
+}
+
+.side-grid-text h2 {
+    position: absolute;
+    width: 95.96px;
+    height: 48px;
+    left: 1082px;
+    top: 4275px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    color: white;
+}
+
+.side-grid-text h1 {
+    position: absolute;
+    width: 499px;
+    height: 153px;
+    left: 1068px;
+    top: 4275px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100.756px;
+    line-height: 151px;
+    color: white;
+}
+
+.slick-track {
     position: relative;
-    top: 21px;
-    right: 110px;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
-.download a {
-    color: #5ACFF9;
+.side-grid-text .image-semi {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: 1006px;
+    margin-top: -725px;
+    /* as the half of the width */
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    border-bottom: 0;
+    background: #BC7452;
+    rotate: 90deg;
 }
 
-.home-image {
-    display: flex;
+.grid-sale {
+    position: absolute;
+    width: 73.58px;
+    height: 53px;
+    left: 1065px;
+    top: 3790px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35.3333px;
+    line-height: 35px;
+    /* identical to box height */
+    color: white;
+}
+
+.grid-sale span {
+    position: absolute;
+    width: 40.26px;
+    height: 29px;
+    left: -2px;
+    top: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.3333px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #ddd;
+}
+
+.span-tag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.3739px;
+    line-height: 6px;
+    color: #ddd;
+}
+
+.slick-slide img {
+    display: block;
     width: 100%;
+    height: auto;
+}
+
+.topproducthome {
+    position: absolute;
+    width: 283px;
+    height: 56px;
+    left: 108px;
+    top: 5160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    white-space: nowrap;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.view-more-home2 {
+    position: absolute;
+    width: 142px;
+    height: 41px;
+    left: 1656px;
+    top: 5160px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+    cursor: pointer;
+}
+
+.topproductshome {
+    position: absolute;
+    display: grid;
+    width: 1550px;
+    left: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 205px;
+    margin-left: 10px;
+    border-collapse: collapse;
+    column-gap: 0;
+}
+
+.Allproducthome {
+    position: absolute;
+    width: 283px;
+    height: 56px;
+    left: 108px;
+    top: 6180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    white-space: nowrap;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.view-more-home3 {
+    position: absolute;
+    width: 142px;
+    height: 41px;
+    left: 1656px;
+    top: 6180px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+    cursor: pointer;
+}
+
+.allproductshomeimages {
+    position: absolute;
+    display: grid;
+    width: 1550px;
+    left: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1225px;
+    margin-left: 10px;
+    border-collapse: collapse;
+    column-gap: 0;
 }

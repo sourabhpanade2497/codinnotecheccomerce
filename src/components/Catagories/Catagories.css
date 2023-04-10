@@ -1,0 +1,554 @@
+.Catagories-image-style {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+
+/* .image-card {
+    
+} */
+
+.catagories-title {
+    position: absolute;
+    width: 256px;
+    height: 56px;
+    left: 875px;
+    top: 944px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.top-products {
+    position: absolute;
+    width: 311px;
+    height: 56px;
+    left: 874px;
+    top: 1298px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.catagories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 185px;
+    margin-left: 275px;
+}
+
+.catagories-grid img {
+    width: 200px;
+    height: 300px;
+    padding: 0;
+    left: 1250px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    cursor: pointer;
+}
+
+.catagories-grid h2 {
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 20px;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catagories-grid h3 {
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    font-size: 43px;
+    width: 50px;
+    top: 180px;
+    left: 246px;
+    cursor: pointer;
+}
+
+.filter-menu h2 {
+    position: absolute;
+    width: 124px;
+    height: 41px;
+    top: 161px;
+    margin-left: 10px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+/* Add some CSS styles for the plus icon */
+
+.plus-icon {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+/* Add some CSS styles for the sub-dropdown menu */
+
+.sub-dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.plus-icon {
+    position: absolute;
+    left: 250px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+ul {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.filter .filter-line {
+    position: absolute;
+    width: 311px;
+    height: 3.1px;
+    left: 26px;
+    top: 227px;
+    background-color: #5d5b5b;
+}
+
+.mens-fashion {
+    position: absolute;
+    width: 332px;
+    height: 56px;
+    left: 874px;
+    top: 1893px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.view-all {
+    position: absolute;
+    width: 84px;
+    height: 32px;
+    left: 1775px;
+    top: 1906px;
+    /* Title - Mobile */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    /* identical to box height */
+    color: #474747;
+    cursor: pointer;
+}
+
+.mensfashiondata {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 165px;
+}
+
+.mensfashiondata1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 125px;
+    margin-right: 775px;
+    column-gap: 25px;
+}
+
+.mensfashiondataimage {
+    position: absolute;
+    width: 1150px;
+    height: 1100px;
+    left: 958px;
+    top: 2530px;
+}
+
+.mensfashiontext h2 {
+    position: absolute;
+    width: 95.96px;
+    height: 48px;
+    left: 1262px;
+    top: 3025px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #ddd;
+}
+
+.mensfashiontext h1 {
+    position: absolute;
+    width: 499px;
+    height: 153px;
+    left: 1248px;
+    top: 3000px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100.756px;
+    line-height: 151px;
+    color: #ddd;
+}
+
+.mensfashiontext .image-disc {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: 1196px;
+    margin-top: -725px;
+    /* as the half of the width */
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    border-bottom: 0;
+    background: #BC7452;
+    rotate: 90deg;
+}
+
+.sale {
+    position: absolute;
+    width: 73.58px;
+    height: 53px;
+    left: 1245px;
+    top: 2604px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35.3333px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #ddd;
+}
+
+.sale span {
+    position: absolute;
+    width: 40.26px;
+    height: 29px;
+    left: -2px;
+    top: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.3333px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #ddd;
+}
+
+.timer {
+    position: absolute;
+    width: 84.85px;
+    height: 399px;
+    left: 780px;
+    color: #ddd;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 61.7072px;
+    line-height: 25px;
+}
+
+.span-tag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.3739px;
+    line-height: 6px;
+    color: #ddd;
+}
+
+.topsandtank {
+    position: absolute;
+    width: 309px;
+    height: 56px;
+    left: 125px;
+    top: 3387px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.view-more {
+    position: absolute;
+    width: 142px;
+    height: 41px;
+    left: 1421px;
+    top: 3387px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #292929;
+    cursor: pointer;
+}
+
+.topsntanks {
+    position: absolute;
+    display: grid;
+    width: 1550px;
+    left: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 155px;
+    margin-left: 10px;
+    border-collapse: collapse;
+    column-gap: 0;
+}
+
+.topsntanks h3 {
+    margin-bottom: 70px;
+}
+
+.dark-thumbnail {
+    position: absolute;
+    width: 1673px;
+    height: 716px;
+    left: 110px;
+    top: 4508px;
+    background: #161616;
+}
+
+.inside-dresscombo {
+    position: absolute;
+    width: 1750px;
+    height: 602px;
+    left: -438px;
+    top: 168px;
+}
+
+.dark-thumbnail h2 {
+    position: absolute;
+    width: 248.12px;
+    height: 36px;
+    left: 918px;
+    top: 222px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #ffff;
+}
+
+.dark-thumbnail h1 {
+    position: absolute;
+    width: 448px;
+    height: 157px;
+    left: 900px;
+    top: 254px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54.76px;
+    line-height: 82px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.dark-thumbnail h1 span {
+    color: #fff;
+    position: absolute;
+    left: 65px;
+}
+
+.dark-thumbnail h3 {
+    position: absolute;
+    width: 152.39px;
+    height: 44px;
+    left: 1110px;
+    top: 485px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.3834px;
+    line-height: 44px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.text-line {
+    position: relative;
+    width: 228px;
+    height: 0px;
+    left: 875px;
+    top: 28px;
+    border: 1px solid #ffffff;
+}
+
+.text-line2 {
+    position: relative;
+    width: 398px;
+    height: 0px;
+    left: 1265px;
+    top: 28px;
+    border: 1px solid #ffffff;
+}
+
+.mens-clothing {
+    position: absolute;
+    width: 376px;
+    height: 56px;
+    left: 129px;
+    top: 5310px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.view-more2 {
+    position: absolute;
+    width: 142px;
+    height: 41px;
+    left: 1495px;
+    top: 5321px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #292929;
+}
+
+.mensclothing-grid {
+    position: absolute;
+    display: grid;
+    width: 1590px;
+    left: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    top: 5455px;
+    margin-left: 10px;
+    border-collapse: collapse;
+    column-gap: 0;
+}
+
+.allproducts {
+    position: absolute;
+    width: 283px;
+    height: 56px;
+    left: 119px;
+    top: 6371px;
+    white-space: nowrap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.view-more3 {
+    position: absolute;
+    width: 142px;
+    height: 41px;
+    left: 1495px;
+    top: 6381px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #292929;
+}
+
+.allproducts-grid {
+    position: absolute;
+    display: grid;
+    width: 1590px;
+    left: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    top: 6495px;
+    margin-left: 10px;
+    border-collapse: collapse;
+    column-gap: 0;
+}

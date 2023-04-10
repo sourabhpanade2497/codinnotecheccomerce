@@ -1,0 +1,70 @@
+.your-bag {
+    position: absolute;
+    width: 232.88px;
+    height: 77px;
+    left: 65px;
+    top: 114px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50.7073px;
+    line-height: 76px;
+    color: #000000;
+}
+
+.carticon img {
+    position: absolute;
+    width: 260px;
+    height: 216px;
+    left: 771px;
+    top: 363px;
+}
+
+.text1 {
+    position: absolute;
+    width: 524.51px;
+    height: 85px;
+    left: 624px;
+    top: 619px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55.9756px;
+    line-height: 84px;
+    text-align: center;
+    color: #000000;
+}
+
+.text2 {
+    position: absolute;
+    width: 457px;
+    height: 32px;
+    left: 669px;
+    top: 713px;
+    /* Body - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.text3 {
+    position: absolute;
+    width: 247px;
+    height: 41px;
+    left: 737px;
+    top: 783px;
+    white-space: nowrap;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #3C83E6;
+}

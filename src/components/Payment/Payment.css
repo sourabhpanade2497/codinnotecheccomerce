@@ -1,0 +1,200 @@
+.basicdetail {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 226px;
+    top: 196px;
+    border: 1px solid #3C83E6;
+    border-radius: 50px;
+}
+
+.basicdetail .tick {
+    margin-top: 20px;
+}
+
+.Address {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 560px;
+    top: 196px;
+    border: 2px solid #3C83E6;
+    border-radius: 50px;
+}
+
+.Address .tick2 {
+    margin-top: 20px;
+}
+
+.Payment {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 894px;
+    top: 196px;
+    background: #3C83E6;
+    border-radius: 50px;
+}
+
+.Payment .tick3 {
+    margin-top: 20px;
+    color: white;
+}
+
+.Confirm {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 1228px;
+    top: 196px;
+    border: 2px solid #808080;
+    border-radius: 50px;
+}
+
+.Confirm .tick4 {
+    margin-top: 20px;
+}
+
+.Done {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 1562px;
+    top: 196px;
+    border: 2px solid #808080;
+    border-radius: 50px;
+}
+
+.Done .tick5 {
+    margin-top: 20px;
+}
+
+.basicdetail p {
+    position: absolute;
+    width: 116px;
+    height: 27px;
+    left: -25px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #3C83E6;
+}
+
+.Address p {
+    position: absolute;
+    width: 75px;
+    height: 27px;
+    left: -1px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #3C83E6;
+}
+
+.Payment p {
+    position: absolute;
+    width: 82px;
+    height: 27px;
+    left: -5px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #3C83E6;
+}
+
+.Confirm p {
+    position: absolute;
+    width: 74px;
+    height: 27px;
+    left: -5px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6F7277;
+}
+
+.Done p {
+    position: absolute;
+    width: 48px;
+    height: 27px;
+    left: 5px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6F7277;
+}
+
+.vector1 {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 309px;
+    top: 230px;
+    border: 1px solid #3C83E6;
+}
+
+.vector2 {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 649px;
+    top: 230px;
+    border: 1px solid #3C83E6;
+}
+
+.vector3 {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 981px;
+    top: 230px;
+    border: 1px solid #A4A4A4;
+}
+
+.vector4 {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 1320px;
+    top: 230px;
+    border: 1px solid #A4A4A4;
+}
+
+.heading2 h2 {
+    position: absolute;
+    width: 246px;
+    height: 38px;
+    left: 129px;
+    top: 360px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.line-draw {
+    position: absolute;
+    width: 1633px;
+    height: 0px;
+    left: 91px;
+    top: 460px;
+    border: 1px solid #000000;
+}

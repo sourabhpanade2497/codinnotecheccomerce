@@ -1,0 +1,91 @@
+.account-text {
+    position: absolute;
+    width: 163px;
+    height: 41px;
+    left: 102px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.myorder-text {
+    position: absolute;
+    width: 126px;
+    height: 41px;
+    left: 318px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.emptyimage {
+    position: absolute;
+    width: 377px;
+    height: 267px;
+    left: 649px;
+    top: 343px;
+}
+
+.nothing {
+    position: absolute;
+    width: 573px;
+    height: 69px;
+    left: 546px;
+    top: 582px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45.8491px;
+    line-height: 69px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.additem {
+    position: absolute;
+    width: 802px;
+    height: 33px;
+    left: 442px;
+    top: 682px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.shop-more-btn {
+    position: absolute;
+    width: 288px;
+    height: 78px;
+    left: 679px;
+    top: 767px;
+    border: none;
+    background: #3C83E6;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.9081px;
+    line-height: 42px;
+    /* identical to box height */
+    color: white;
+    cursor: pointer;
+}

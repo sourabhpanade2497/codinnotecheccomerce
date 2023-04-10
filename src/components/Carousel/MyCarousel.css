@@ -1,0 +1,27 @@
+.carousel-container {
+    margin-top: 180px;
+    margin-left: -60px;
+    /* add margin to the top */
+}
+
+.carousel-item-padding-40-px {
+    padding: 0 20px;
+    /* decrease the padding between two images */
+}
+
+.price {
+    width: 72px;
+    height: 31px;
+    margin-left: 210px;
+    line-height: 1px;
+    /* Body - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

@@ -1,0 +1,13 @@
+.custom-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: -30%;
+    margin-top: 185px;
+}
+
+img {
+    width: 50%;
+    height: 70%;
+    object-fit: cover;
+    cursor: pointer;
+}

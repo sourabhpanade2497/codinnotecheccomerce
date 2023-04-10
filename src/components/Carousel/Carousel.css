@@ -1,0 +1,189 @@
+.slick-slider {
+    position: relative;
+}
+
+.slick-slide {
+    position: relative;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+
+.slick-slide .slide-text {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.slide-text .slide-h2 {
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.0469px;
+    color: #FFFFFF;
+    margin-top: 190px;
+    margin-left: -130px;
+}
+
+.slide-text .slide-h3 {
+    position: absolute;
+    width: 166.48px;
+    height: 37.84px;
+    top: 186px;
+    left: -1.1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0312px;
+    color: #FFFFFF;
+}
+
+.slick-slide .slide-text .slide-title {
+    position: absolute;
+    width: 725.24px;
+    height: 300.98px;
+    left: -1.1%;
+    color: #fff;
+    font-weight: 1000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 71.9873px;
+    top: -100px;
+    text-align: start;
+}
+
+.line1 {
+    position: absolute;
+    width: 295px;
+    left: 55px;
+    top: 587px;
+    border: 1px solid #CBCBCB;
+}
+
+.line2 {
+    position: absolute;
+    width: 495px;
+    left: 540px;
+    top: 587px;
+    border: 1px solid #CBCBCB;
+}
+
+.slide-text .slide-h22 {
+    position: absolute;
+    width: 143.31px;
+    height: 42.29px;
+    left: 210px;
+    top: 270px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.8483px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.slick-slide .slide-text .slide-p {
+    position: absolute;
+    width: 162.69px;
+    height: 20.03px;
+    left: 1%;
+    top: 560px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.1913px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 70%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #333;
+}
+
+.slick-dots li button:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin: 2px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #333;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 3rem;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.slick-prev i,
+.slick-next i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.slick-prev:hover i,
+.slick-next:hover i {
+    color: #ccc;
+}

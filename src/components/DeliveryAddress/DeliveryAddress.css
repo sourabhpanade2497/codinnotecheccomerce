@@ -1,0 +1,324 @@
+.basicdetail_d {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 226px;
+    top: 196px;
+    border: 2px solid #3C83E6;
+    border-radius: 50px;
+}
+
+.basicdetail_d .tick_d {
+    margin-top: 20px;
+}
+
+.Address_d {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 560px;
+    top: 196px;
+    background: #3C83E6;
+    border-radius: 50px;
+}
+
+.Address_d .tick2_d {
+    margin-top: 20px;
+    color: #6F7277;
+}
+
+.Payment_d {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 894px;
+    top: 196px;
+    border: 2px solid #808080;
+    border-radius: 50px;
+}
+
+.Payment_d .tick3_d {
+    margin-top: 20px;
+    color: #6F7277;
+}
+
+.Confirm_d {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 1228px;
+    top: 196px;
+    border: 2px solid #808080;
+    border-radius: 50px;
+}
+
+.Confirm_d .tick4_d {
+    margin-top: 20px;
+}
+
+.Done_d {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 1562px;
+    top: 196px;
+    border: 2px solid #808080;
+    border-radius: 50px;
+}
+
+.Done_d .tick5_d {
+    margin-top: 20px;
+}
+
+.basicdetail_d p {
+    position: absolute;
+    width: 116px;
+    height: 27px;
+    left: -25px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #3C83E6;
+}
+
+.Address_d p {
+    position: absolute;
+    width: 75px;
+    height: 27px;
+    left: -1px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6F7277;
+}
+
+.Payment_d p {
+    position: absolute;
+    width: 82px;
+    height: 27px;
+    left: -5px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6F7277;
+}
+
+.Confirm_d p {
+    position: absolute;
+    width: 74px;
+    height: 27px;
+    left: -5px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6F7277;
+}
+
+.Done_d p {
+    position: absolute;
+    width: 48px;
+    height: 27px;
+    left: 5px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6F7277;
+}
+
+.vector1_d {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 309px;
+    top: 230px;
+    border: 1px solid #3C83E6;
+}
+
+.vector2_d {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 649px;
+    top: 230px;
+    border: 1px solid #3C83E6;
+}
+
+.vector3_d {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 981px;
+    top: 230px;
+    border: 1px solid #A4A4A4;
+}
+
+.vector4_d {
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 1320px;
+    top: 230px;
+    border: 1px solid #A4A4A4;
+}
+
+.heading_h2 {
+    position: absolute;
+    width: 447px;
+    height: 38px;
+    left: 150px;
+    top: 395px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.line_d {
+    position: absolute;
+    width: 1583px;
+    height: 0px;
+    left: 131px;
+    top: 480px;
+    border: 1px solid #A4A4A4;
+}
+
+.home-icon {
+    position: absolute;
+    top: 560px;
+    left: 245px;
+}
+
+.office-icon {
+    position: absolute;
+    top: 710px;
+    left: 245px;
+}
+
+#delivery_1 {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 152px;
+    top: 586px;
+    border: 4px solid #000000;
+}
+
+#delivery_2 {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 152px;
+    top: 748px;
+    opacity: 0.8;
+    border: 3px solid #000000;
+}
+
+.home_current {
+    position: absolute;
+    width: 210.58px;
+    height: 26.48px;
+    left: 305px;
+    top: 560px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.441px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+    white-space: nowrap;
+}
+
+.Office_Delivery {
+    position: absolute;
+    width: 210.58px;
+    height: 26.48px;
+    left: 226px;
+    top: 710px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.441px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.home_current p {
+    position: absolute;
+    width: 441.19px;
+    height: 61.37px;
+    left: -57px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    color: #000000;
+    text-align: left;
+}
+
+.Office_Delivery p {
+    position: absolute;
+    width: 441.19px;
+    height: 61.37px;
+    left: 21px;
+    top: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    color: #000000;
+    text-align: left;
+}
+
+.button_Next {
+    position: absolute;
+    width: 359px;
+    height: 72px;
+    left: 1220px;
+    top: 685px;
+    font-size: 30px;
+    color: white;
+    background: #3C83E6;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.Manage_Address h2 {
+    position: absolute;
+    width: 189px;
+    height: 33px;
+    left: 1317px;
+    top: 785px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #333333;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar-logo {
+    width: 80px;
+    padding: 10px 10px 10px;
+    cursor: pointer;
+}
+
+.text-left {
+    width: 86px;
+    height: 23.89px;
+    top: 46px;
+    display: flex;
+    flex-direction: column;
+    line-height: 13.36px;
+    padding: 10px 20px 0px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Quattrocento';
+}
+
+.text-below {
+    font-size: 9px;
+    font-weight: 600;
+    font-family: 'Quattrocento';
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 1080px;
+}
+
+svg {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.v1 {
+    position: absolute;
+    height: 65px;
+    right: 181px;
+    top: 17px;
+    border: 3px solid #D2D2D2;
+}
+
+.text-right {
+    position: absolute;
+    width: 141px;
+    height: 60px;
+    right: 30px;
+    top: 21px;
+    font-size: 13.33px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 20px;
+    color: black;
+}
+
+#content1::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.download {
+    position: relative;
+    top: 21px;
+    right: 45px;
+}
+
+.download a {
+    color: #5ACFF9;
+}

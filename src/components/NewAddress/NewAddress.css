@@ -1,0 +1,283 @@
+.account-text-n {
+    position: absolute;
+    width: 163px;
+    height: 41px;
+    left: 102px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    white-space: nowrap;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.manageorder-text-n {
+    position: absolute;
+    width: 234px;
+    height: 41px;
+    left: 298px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.arrow-n {
+    position: absolute;
+    width: 16px;
+    height: 41px;
+    left: 284px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.New_Address h2 {
+    position: absolute;
+    width: 279.41px;
+    height: 64px;
+    left: 105px;
+    top: 281px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    white-space: nowrap;
+    /* identical to box height */
+    color: #000000;
+}
+
+.Name_n {
+    position: absolute;
+    width: 84px;
+    height: 41px;
+    left: 161px;
+    top: 384px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#name_n {
+    position: absolute;
+    width: 466px;
+    height: 73px;
+    left: 1px;
+    top: 60px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.PhoneNumber_n {
+    position: absolute;
+    width: 205px;
+    height: 41px;
+    left: 780px;
+    top: 384px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#phonenumber_n {
+    position: absolute;
+    width: 466px;
+    height: 73px;
+    left: -4px;
+    top: 60px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.Address_n {
+    position: absolute;
+    width: 113px;
+    height: 41px;
+    left: 164px;
+    top: 550px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#address_n {
+    position: absolute;
+    width: 1080px;
+    height: 73px;
+    left: 1px;
+    top: 60px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.City_n {
+    position: absolute;
+    width: 56px;
+    height: 41px;
+    left: 167px;
+    top: 728px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#city_n {
+    position: absolute;
+    width: 466px;
+    height: 73px;
+    left: 1px;
+    top: 60px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.Locality_n {
+    position: absolute;
+    width: 106px;
+    height: 41px;
+    left: 780px;
+    top: 728px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#locality_n {
+    position: absolute;
+    width: 466px;
+    height: 73px;
+    left: 1px;
+    top: 60px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.State_n {
+    position: absolute;
+    width: 73px;
+    height: 41px;
+    left: 167px;
+    top: 905px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#state_n {
+    position: absolute;
+    width: 466px;
+    height: 73px;
+    left: 1px;
+    top: 60px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.Pincode_n {
+    position: absolute;
+    width: 111px;
+    height: 41px;
+    left: 780px;
+    top: 905px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#pincode_n {
+    position: absolute;
+    width: 466px;
+    height: 73px;
+    left: 1px;
+    top: 60px;
+    background: #D9D9D9;
+    border: none;
+}
+
+.set_n {
+    position: absolute;
+    width: 309px;
+    height: 41px;
+    left: 260px;
+    top: 1108px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    white-space: nowrap;
+    /* identical to box height */
+    color: #000000;
+}
+
+#setcurrent_n {
+    position: absolute;
+    width: 44px;
+    height: 47px;
+    left: -90px;
+    top: -10px;
+}
+
+.addaddress {
+    position: absolute;
+    width: 447px;
+    height: 109px;
+    left: 423px;
+    top: 1209px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    background: #3C83E6;
+    border-radius: 10px;
+}
