@@ -1,0 +1,297 @@
+.myorder-coupan {
+    position: absolute;
+    width: 163px;
+    height: 41px;
+    left: 102px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    white-space: nowrap;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.arrow-coupan {
+    position: absolute;
+    width: 16px;
+    height: 41px;
+    left: 284px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.Coupan {
+    position: absolute;
+    width: 234px;
+    height: 41px;
+    left: 278px;
+    top: 171px;
+    /* Title - Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.mycoupan25 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 102px;
+    top: 286px;
+    background: #4B2EFF;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.vector_coupan {
+    position: absolute;
+    width: 52px;
+    height: 56px;
+    left: -26px;
+    top: 54px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: #C4C4C4;
+}
+
+.vector_coupan1 {
+    position: absolute;
+    width: 52px;
+    height: 56px;
+    left: 316px;
+    top: 54px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: #C4C4C4;
+}
+
+.coupan_code {
+    position: absolute;
+    width: 138.29px;
+    height: 30px;
+    left: 42px;
+    top: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.7561px;
+    line-height: 30px;
+    white-space: nowrap;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.coupan_p {
+    position: absolute;
+    width: 154px;
+    height: 22px;
+    text-align: left;
+    left: 42px;
+    top: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+    color: #FFFFFF;
+}
+
+.coupan_expiry {
+    position: absolute;
+    width: 23px;
+    height: 6px;
+    left: 42px;
+    top: 97px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5px;
+    line-height: 6px;
+    white-space: nowrap;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.dash_line {
+    position: absolute;
+    width: 0px;
+    height: 122px;
+    left: 210px;
+    top: 25px;
+    border: 1px dashed #FFFFFF;
+}
+
+.coupan_h3>h3 {
+    position: absolute;
+    width: 68.6px;
+    height: 49px;
+    left: 220px;
+    top: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.2683px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.coupan_off>h2 {
+    position: absolute;
+    width: 29.4px;
+    height: 21px;
+    left: 230px;
+    top: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.8293px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.btn_coupan {
+    position: absolute;
+    width: 143px;
+    height: 26px;
+    left: 40px;
+    top: 125px;
+    background: #3C83E6;
+    border-radius: 7px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6.58537px;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+.mycoupan25_2 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 503px;
+    top: 286px;
+    background: #4B2EFF;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.dash_line_2 {
+    position: absolute;
+    width: 0px;
+    height: 122px;
+    left: 210px;
+    top: 25px;
+    border: 1px dashed #FFFFFF;
+}
+
+.mycoupan25_2>h2 {
+    position: absolute;
+    width: 29.4px;
+    height: 21px;
+    left: 231px;
+    top: 81px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.8293px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.mycoupan25_3 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 904px;
+    top: 286px;
+    background: #2C199E;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.mycoupan25_4 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 102px;
+    top: 486px;
+    border-radius: 30px;
+    background: #2C199E;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mycoupan25_5 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 503px;
+    top: 486px;
+    border-radius: 30px;
+    background: #2C199E;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mycoupan25_6 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 904px;
+    top: 486px;
+    border-radius: 30px;
+    background: #4B2EFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mycoupan25_7 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 102px;
+    top: 686px;
+    border-radius: 30px;
+    background: #4B2EFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mycoupan25_8 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 503px;
+    top: 686px;
+    border-radius: 30px;
+    background: #4B2EFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mycoupan25_9 {
+    position: absolute;
+    width: 344px;
+    height: 168px;
+    left: 904px;
+    top: 686px;
+    border-radius: 30px;
+    background: #4B2EFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}

@@ -7,17 +7,19 @@ import MyOrder from "./components/MyOrder/MyOrder";
 import Cart from "./components/Cart/Cart";
 import EmpyOrder from "./components/MyOrder/EmpyOrder";
 import Payment from "./components/Payment/Payment";
-import Demo from "./components/Demo/Demo";
+
 import DeliveryAddress from "./components/DeliveryAddress/DeliveryAddress";
 import BasicDetails from "./components/BasicDetails/BasicDetails";
 import NewAddress from "./components/NewAddress/NewAddress";
 import Support from "./components/Support/Support";
+import SupportSuccess from "./components/Support/SupportSuccess";
+import MyCoupan from "./components/MyCoupan/MyCoupan";
 
 
 
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       
      <Routes>
@@ -33,9 +35,8 @@ function App() {
       <Route path="/BasicDetails" element={<BasicDetails/>}/>
       <Route path="/NewAddress" element={<NewAddress/>}/>
       <Route path="/Support" element={<Support/>}/>
-
-      <Route path="/Demo" element={<Demo/>}/>
-
+      <Route path="/SupportSuccess" element={<SupportSuccess/>}/>
+      <Route path="/MyCoupan" element={<MyCoupan/>}/>
      
      </Routes>
      

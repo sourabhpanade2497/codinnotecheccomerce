@@ -9,6 +9,10 @@ function Payment() {
   const [value, setValue] = useState('');
  
 
+  const  handleClick = () => {
+    window.location.href = '/MyCoupan'; 
+  };
+
   const handlePaymentMethodChange = (event) => {
     setPaymentMethod(event.target.value);
   };
@@ -127,7 +131,7 @@ function Payment() {
     
     <div className="addcoupan">
 
-    <h3>Add Coupan</h3>
+    <h3 onClick={handleClick}>Add Coupan</h3>
     </div>
 
      <div className='form-container' onSubmit={handleSubmit}>

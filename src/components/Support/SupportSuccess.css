@@ -1,0 +1,55 @@
+.Support-Logo {
+    position: absolute;
+    width: 965.54px;
+    height: 454.62px;
+    left: 285px;
+    top: 310px;
+}
+
+.text-context {
+    position: absolute;
+    width: 1020px;
+    height: 82px;
+    left: 258px;
+    top: 653px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.text-context h2 {
+    position: absolute;
+    width: 767px;
+    height: 33px;
+    left: 101px;
+    top: 123px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.btn_back {
+    position: absolute;
+    width: 383px;
+    height: 85px;
+    left: 587px;
+    top: 868px;
+    background: #3C83E6;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26.2308px;
+    line-height: 39px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
